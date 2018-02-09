@@ -1,0 +1,77 @@
+.nav_menu {
+    background: #fc5c7d;
+    background: -webkit-linear-gradient(to left, #fc5c7d, #6a82fb);
+    background: linear-gradient(to left, #fc5c7d, #6a82fb);
+}
+.top_nav .nav .open > a, .top_nav .nav .open > a:focus, .top_nav .nav .open > a:hover, .top_nav .nav > li > a:focus, .top_nav .nav > li > a:hover {
+    background: #1289E1 !important;
+}
+body {
+    color: #06315F !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+      background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fc5c7d, #6a82fb);
+    }
+.nav.side-menu > li > a:hover {
+color: #FFF !important;
+ background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fc5c7d, #6a82fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav.side-menu > li.active, .nav.side-menu > li.current-page {
+    border-right: 3px solid #06315F !important;
+}    
+
+.btn-success, .btn-info {
+    background: #FFF !important;
+    border: 1px solid #ddd;
+    color: #000 !important;
+}
+.btn-primary {
+    background: #FFF !important;
+    border: 1px solid #ddd;
+    color: #000 !important;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #ffca6080 !important;
+    opacity: 1;
+}
+.x_panel {
+    color: #16212D !important;
+    }
+.nav_title {
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}    
+.left_col {
+   
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fc5c7d, #6a82fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.img-circle.profile_img {
+    border: 0px !important;
+}
+.menu_section h3 {
+    padding-left: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 15px !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: 1px 1px #00030580 !important;
+}
+.profile_info h2 {
+    font-size: 14px !important;
+    }
+.nav.navbar-nav > li > a {
+    color: #06315f !important;
+}
+.toggle a i {
+    font-size: 28px !important;
+    color: #06315f !important;
+}    
