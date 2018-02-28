@@ -1,0 +1,81 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .footer-form input[type="text"] {
+		max-width: 200px;
+	} 
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .o-story img {
+	margin-left: 50px;
+	margin-bottom: 50px;
+    }
+    .single-service {
+		border-right: 0;
+	}
+	.category-section [class*="col-"]:nth-last-child(-n+3) .single-service {
+		border-bottom: 1px solid #ebebeb;
+	}
+	.category-section [class*="col-"]:last-child .single-service {
+		border-bottom: 0px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.o-story-content {
+		text-align: center;
+	}
+	.o-story-content {
+		padding-left: 0;
+		margin-top: 50px;
+	}
+	.single-service {
+		border-right: 0;
+	}
+	.category-section [class*="col-"]:nth-last-child(-n+3) .single-service {
+		border-bottom: 1px solid #ebebeb;
+	}
+	.category-section [class*="col-"]:last-child .single-service {
+		border-bottom: 0px;
+	}
+	.happy-client-secton {
+		text-align: center;
+	}
+	.happy-client-section-title h2 {
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	.footer-form input[type="text"] {
+		width: 65%;
+	}
+	.footer-section .footer-wid h4, .footer-section .col-lg-4 h4 {
+		margin-top: 40px;
+		margin-bottom: 15px;
+	}
+	.footer-copyright-area {
+		text-align: center;
+	}
+	.footer-copyright-area .text-center {
+		margin-top: 10px;
+	}
+	.slick-prev {
+		left: 10px;
+	}
+
+	.slick-next {
+		right: 10px;
+	}
+    .o-story img {
+	display: block;
+	margin: 0 auto;
+    }
+    .works-link i.fa {
+    position: relative;
+    right: -5px;
+    margin-top: 20px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

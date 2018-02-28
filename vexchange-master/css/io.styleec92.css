@@ -1,0 +1,159 @@
+#theme{ float: right; margin:8px 20px 0 0; color: #aaa}
+#theme li{display: inline-block;height: 16px;cursor: pointer;width: 16px;background: #111;text-align: center;font-size: 12px;border: 1px solid #888;text-indent: -9999px;}
+#theme #light{ background: #ccc}
+#theme #light:hover{ background: #eee}
+#theme #dark:hover{ background: #000}
+.top-up{ background: #09162e}
+.dealbox .jiaoyi_btn,#coinStatus .normal-st-bg,.push-con .sub-sell,div .alert-sub {background:#25796a; font-weight: normal}
+#coinStatus li{ line-height: 14px}
+.m_con_buy .jiaoyi_btn,.r-btn,.step .button-flat-action,.fund-deposit, .fund-withdraw,.fxts i,.ask_ans i ,.hot:after, .new:after,.sectioncont .sms-setup #submit, .sectioncont #submit.sub-btn, .sectioncont .sub-btn, .sub-btn,.en-body .dealbox .jiaoyi_btn{background:#d45858}
+div .room-tag{background: rgba(212, 88, 88,0.9);}
+.fund-withdraw,.en-body .m_con_buy .jiaoyi_btn {background:#25796a}
+.btn-success{background:#25796a !important; color: #fff !important;}
+.btn-warn{background:#da7f0b !important; color: #fff !important;}
+.btn-error{background:#d45858 !important; color: #fff !important;}
+.btn-normal{background:#0a83ab !important; color: #fff !important;}
+.btn-success:hover{background:#0db37f !important; color: #fff !important;}
+.btn-warn:hover{background:#e4ad2c !important; color: #fff !important;}
+.btn-error:hover{background:#ca4141 !important; color: #fff !important;}
+.btn-normal:hover{background:#199fcc !important; color: #fff !important;}
+.topnum{ font-weight: normal}
+.rate_up, .red, font[color="red"], .main_title h1 .red,.icon-arrow-up,#ul-bid-list .right-align.price,.en-body #ul-ask-list .right-align.price,ul#ul-bid-list .price:before,button.btnOn, .line-type button.btnOn,.topnum,.add-dn-qr,.user-info-box p span, .user-info-box em,#crFund span,.funds-p-tier strong,.cion-dtl-ul b,.fail-tip,.navlist .btn-active i,.dataTables_empty, .left_con .marketlist .dataTables_empty,.gateio-nav > li:hover > a, .gateio-nav > .nav-active > a,.tline_btns .btn_selected,.en-body #ul-ask-list .right-align.price,.en-body ul#ul-ask-list .price:before{ color: #de5959;}
+.en-body .down .price, .en-body #ul-trade-list font[color="#cc3333"], .en-body .rate_down, .en-body .red, .en-body font[color="red"], .en-body .main_title h1 .red, .en-body .icon-arrow-down {color: #de5959 !important;}
+.no-wrap .go-trade-btn:hover,.r-btn:hover,.step .button-flat-action:hover{ background:#ff5d42 }
+#buyYuE,#buyYuE .coin-unit,.up .price,.en-body #sellYuE,.en-body #sellYuE .coin-unit,.en-body .down .price{color: #de5959 !important;}
+.rate_down,.green,font[color="green"],.main_title h1 .green,.icon-arrow-down,#ul-ask-list .right-align.price, ul#ul-ask-list .price:before,.en-body #ul-bid-list .right-align.price,.en-body ul#ul-bid-list .price:before{color:#008069}
+.en-body .up .price, .en-body #ul-trade-list font[color="#339900"], .en-body .rate_up, .en-body .green, .en-body font[color="green"], .en-body .main_title h1 .green, .en-body .icon-arrow-up, #sellYuE,#sellYuE .coin-unit,.down .price,.en-body #buyYuE,.en-body #buyYuE .coin-unit,.en-body .up .price{color:#008069 !important;}
+span.order-t-active,.fkicon .fico,#theme .cur-theme{ border-color:#de5959}
+.dealbox .button-flat-action:hover,.fund-withdraw:hover ,.en-body div.m_con_buy .jiaoyi_btn:hover{background: #0db37f;}
+.sectioncont .sms-setup #submit:hover, .sectioncont #submit.sub-btn:hover, .sectioncont .sub-btn:hover, .sub-btn:hover,.maichu .dealbox .jiaoyi_btn:hover,.room-tag:hover,.fund-deposit:hover {background: #ca4141 !important;}
+.sub-btn[disabled],.sub-btn[disabled]:hover{cursor: not-allowed;  color: #eee !important; background: #aaa !important}
+.warn-depo, .warn-depo:hover {background: #ce9900 !important;}
+.err-depo, .err-depo:hover {background: #888 !important;}
+.inputRate{ border-radius:0; box-shadow: none}
+#logoColor1,#logoColor2{ fill: #de5959}
+.dark-body #logoWhite{fill:#eee}
+#full-screen-slider {margin-bottom:0;/* background:#962536*/}
+.dark-body .content{ border-color: #313b44}
+.fxts{ width: 65%; margin: 0 auto}
+.fxts p{ text-align: center}
+/*#full-screen-slider,#slides {height:460px}
+.login_box {top:90px}*/
+.top-nav .navlist {top: -32px;z-index: 2;}
+.button {background-color:transparent;border:none; color: #ddd}
+.dark-body .caret:before {color: #252e3e}
+.button .caret {position:absolute;bottom:0;left:48%;border-top:none;border-bottom:4px dashed;border-width:8px;color:#4d5361;}
+.button .caret:before {display:none}
+#upArrow.caret:before,#dnArrow.caret:before{ color: transparent !important}
+#upArrow.caret{ bottom: -10px;color: #d86767;}
+#dayRate{ margin-left: 3px}
+#currPrice,#currCNY{ margin-right: 3px}
+.second-nav > li:hover > a, .third-nav a:hover {background: #964b4b;}
+.icon-32{ margin-top: 9px}
+.dataTables_wrapper .coin-name {margin: 16px 0;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: calc(100% - 32px);text-align: left;}
+.en-body .dataTables_wrapper .coin-name{width: auto}
+.coin-name b{ margin-left:5px;color: #2b343c;}
+.coin-name b:hover{color: #d45858;}
+.area-btn-bg {background:#252e3e;;height:52px;}
+.tline_btns .btn_selected {background:transparent;border:none;}
+.tline_btns .btn_selected:hover,.tline_btns .button:hover {background:#303e4c;color:#fff;border:none;}
+.tline_btn .caret{ display: none}
+.tline_btn.btn_selected .caret{ display: inline-block}
+.logo img,.logo svg {width:91px;height:32px;margin:7px 15px 0 0;}
+.leftbar{ min-height: 1348px;}
+.leftbar,.left_btn{background: #fff;}
+.fkcont,.top-nav .nav-bottom-bg{ display: none}
+.fnav {background:#09162e;}
+.tail {border:none}
+.flin,.top-nav{ border: none}
+.fnavcon {height:auto; padding: 21px 0}
+.fkicon ul li{ margin-top: 42px}
+.fkicon{ height: 210px}
+.fkicon .fico{ margin-left: 40%}
+.bottom-notice{ margin-top: 30px; padding: 10px 0; text-align: center}
+.bottom-notice ul{ height: 22px; overflow: hidden}
+.fxts{ margin-bottom: 20px; margin-top: 25px}
+.fnav_list,.fxtishi {width:100%; text-align: center}
+.fxtishi{ margin-top: 30px}
+.fnavcon ul li ul li {width:14%; display: inline-block; text-align: center}
+.linktitle h3{ padding-top: 15px}
+.linkcontent{ line-height: 20px}
+.login_lan .user-info-con {border-color:#3e404a}
+.lv-con {background:none;border-radius:0}
+.trade-main .m_title{ margin-bottom: 20px}
+.side-sev {top:145px}
+.side-sev ul li{ border: none}
+.top-dn{ height: 50px}
+.gateio-nav {margin-top:5px}
+.gateio-nav > li > a {height: 32px;line-height: 36px;margin-bottom:0;padding: 0 10px 10px;font-size: 16px;}
+.qqtel a{ color: #333}
+.top-dn .caret,.top-up .caret{color: #8f9fa5;}
+.top-up .ask_ans:hover{ color: #ca4141}
+.ask_ans i{ margin-right: 5px;font-size: 16px; }
+.ask_ans i svg{ width: 14px;opacity: 0.8}
+.ask_ans p {margin:13px 5px 5px;line-height: 22px; font-size: 14px}
+.ask_ans:hover i{ background:#ff5d42 }
+.dark-body .ask_ans:hover i{background: #47535f;}
+.left_btn{ height: 36px;  line-height: 36px; font-weight: normal}
+div.header {border:none;}
+.market-choose-ul { margin-top: 10px}
+.market-choose-ul li {float:left;padding:10px;font-size:16px;margin-bottom:10px; border-bottom: 2px solid transparent; cursor: default}
+.market-choose-ul .mc-active {border-bottom-color:#de5959}
+div.co-intro{ width: 100%}
+.item.coin_about{ margin-bottom: 50px}
+.index-content .coin-selected td:last-child:after{ display: none}
+.index-content .marketlist .coin-selected td:last-child{ border: none}
+div.box-padding{ margin-bottom: 15px}
+.load8{ right: 27%}
+.top-nav .expand{ border-top: 1px solid transparent;border-bottom: 1px solid transparent; background: none; box-shadow: none}
+.top-nav .navlist a.btn-active,.top-nav .navlist a.btn-active:hover{ border-bottom: 1px solid #de5959; background: none}
+.navlist .btn-active i.caret:before{ color: #fff}
+.second-nav{ left: -30px; top:42px}
+.second-nav .caret:before{color:#333a44 !important;}
+.second-nav > li:hover > a .caret,.gateio-nav > li:hover > a .caret {color:#ff8686 }
+.second-nav > li:hover > a .caret:before {color: #964b4b !important }
+.second-nav > li:hover .third-nav li:first-child {border-left-color:#0f1319;}
+.second-nav > li {width: 150px;}
+.second-nav > li > a { padding: 12px 0 !important;}
+.third-nav{ left: 150px}
+.introduction{ margin: 5px 0}
+.cionintro{ border: none}
+#expandZone .introduction h3{ padding-bottom: 15px}
+#ask-list, #bid-list{height:120px;overflow-y: hidden}
+#ask-list:hover, #bid-list:hover{ overflow-y: scroll}
+#ask-list li, #bid-list li{ padding-right: 6px}
+#ask-list:hover li, #bid-list:hover li{ padding-right: 0}
+#ask-list:hover li .rect, #bid-list:hover li .rect{ right: -6px}
+#mianTlist {margin: 20px 0 0;  }
+.main_content,#tradelist{ padding:0 20px}
+#marketSearch,.dataTables_wrapper .dataTables_filter input{ background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE3IDE3Ij48cGF0aCBmaWxsPSIjREU1OTU5IiBkPSJNMTYuNDk1IDE0LjI0OGwtMy43MjQtMy43MjVjLjY1LTEuMDUgMS4wNDItMi4yNzMgMS4wNDItMy41OTggMC0zLjgwMy0zLjA4LTYuODg1LTYuODgzLTYuODg1Uy4wNCAzLjEyMy4wNCA2LjkyNWMwIDMuODAzIDMuMDgzIDYuODg1IDYuODg1IDYuODg1IDEuMzI0IDAgMi41NS0uMzkyIDMuNTk4LTEuMDRsMy43MjYgMy43MjVjLjYyLjYyIDEuNjI0LjYyIDIuMjQ1IDAgLjYyLS42Mi42Mi0xLjYyNiAwLTIuMjQ3ek02LjkyOCAxMS42OWMtMi42MzMgMC00Ljc2OC0yLjEyOC00Ljc2OC00Ljc2IDAtMi42MzMgMi4xMy00Ljc2OCA0Ljc2My00Ljc2OCAyLjYzMiAwIDQuNzY3IDIuMTM1IDQuNzY3IDQuNzY3IDAgMi42MzItMi4xMzMgNC43NjUtNC43NjYgNC43NjVsLjAwNC0uMDA0eiIvPjwvc3ZnPg==')}
+.view-show {background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjREU1OTU5IiBkPSJNMzIgMjZjLTMuMzE0IDAtNiAyLjY4Ni02IDZzMi42ODYgNiA2IDYgNi0yLjY4NiA2LTYtMi42ODYtNi02LTZ6bTMxLjk5NyA2LjM4YzAtLjAzLS4wMDQtLjA1NS0uMDA2LS4wODJ2LS4wNGMwLS4wMiAwLS4wNC0uMDEtLjA2IDAtLjAyIDAtLjA0NS0uMDEtLjA2Ny0uMDctLjUtLjMxLS45OC0uNjctMS4zNC0yLjA0LTIuNDc3LTQuNDctNC42OC02Ljk0LTYuNjkzLTUuMzItNC4zMzYtMTEuNC03Ljk2My0xOC4xMS05LjQyNC0zLjg4LS44NDQtNy43ODItLjg4LTExLjY5LS4xNjUtMy41NS42NS02Ljk3IDItMTAuMTcgMy42NzUtNS4wMSAyLjYyLTkuNTgyIDYuMjMtMTMuNTcgMTAuMjgtLjczNC43NS0xLjQ3IDEuNTEzLTIuMTQgMi4zMy0uODkyIDEuMDgtLjg5MiAyLjM2MyAwIDMuNDUgMi4wNCAyLjQ3NiA0LjQ3IDQuNjggNi45NCA2LjY5IDUuMzIgNC4zMzQgMTEuNDA0IDcuOTYgMTguMTIgOS40MjIgMy44OC44NDIgNy43OS44OCAxMS42OS4xNjQgMy41NDctLjY1IDYuOTY3LTIgMTAuMTctMy42NzcgNS4wMS0yLjYyIDkuNTg2LTYuMjMgMTMuNTczLTEwLjI4LjczNy0uNzUgMS40Ny0xLjUxNSAyLjE0NC0yLjMzLjM1Ni0uMzY2LjU5LS44NC42Ny0xLjM1di0uMDFsLjAxLS4wNy4wMDctLjA1Ni4wMDItLjA0LjAwNy0uMDguMDA0LS4xMjMtLjAwNy0uMTItLjAxMy0uMDA0ek0zMiA0NGMtNi42MjcgMC0xMi01LjM3Mi0xMi0xMnM1LjM3Mi0xMiAxMi0xMiAxMiA1LjM3MyAxMiAxMmMwIDYuNjI4LTUuMzczIDEyLTEyIDEyeiIvPjwvc3ZnPg==')}
+#divMyOrderSection{ position: relative; z-index: 2}
+.leftbar .dark-tradelist .even{background:rgba(0,0,0,0.1)}
+.index-content .dark-tradelist .coin-selected, .index-content .dark-tradelist .coin-selected:hover,.dark-body .coin-selected,.dark-body .coin-selected:hover {background: #233548}
+.dark-body .coin-selected:hover{background: #2d4358 !important}
+.index-content .coin-selected td:last-child:after {content:'';position:absolute;top:8px;right:-10px;display:inline-block;width:0;height:0;border-left:10px dashed;border-top:8px solid transparent;border-bottom:8px solid transparent;color:#c0d0e0}
+.index-content .dark-tradelist .coin-selected td:last-child:after{ color: #2c435a}
+div .free-icon {background: #7d5221;color: #ddd;border-color:#a76316;}
+.leftbar #marketSearch{ height:38px;margin-bottom: 0}
+.sorting{ background-color: transparent}
+.top-con{ position: relative}
+.qqtel{ position: absolute; right:0;top:40px}
+.leftbar .odd, .leftbar .even {height: 33px;}
+.mairu-form,.maichu-form{ width: 50%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.mairu-form{ padding-left: 30px}
+.maichu-form{ padding-right: 30px;border-right: 1px dashed #c8dae2;}
+.en-body .trade-main > .maichu,.en-body .trade-main > .mairu{width: 50%;float: left}
+.en-body .mairu-form {padding-right: 30px; padding-left:0;border-right: 1px dashed #c8dae2;}
+.en-body .maichu-form {padding-left: 30px; padding-right: 0; border-right: none}
+.m_title{ font-size: 17px}
+.myacc-con .m_title{ font-size: 20px}
+.myacc-con .m_title h4{ font-weight: normal}
+.kline-title{ position: absolute; top:20px; z-index:9995;font-size: 17px; cursor: default; display: none}
+.title-line b,.dealtop{ font-weight: normal}
+.trade-main .dealbox td:first-child{ width: 15%}
+.dealbox td{padding-right: 0}
+.dealbox .input-td{ width: 100% !important; position: relative;padding: 5px 0; }
+.input-title{ position: absolute;top:15px; left: 10px}
+.top-risk-tip{position: absolute;z-index: 66;top: 52px;left: 42px;}
+#marketlist_controller{background: none}

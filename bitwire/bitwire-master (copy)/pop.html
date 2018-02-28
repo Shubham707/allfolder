@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">×</button>
+			<h3>KYC-VERIFICATION</h3>
+		</div>
+		<div class="modal-body">
+			<p>If you want to verification of your account press VERIFICATION button.</p>
+			<p> if you want to Skip click SKIP button.</p>
+		</div>
+		<div class="modal-footer">
+	      <button class="btn" href="kyc_verification.php">VERIFICATION</button>
+			<button class="btn" data-dismiss="modal">SKIP</button>
+		</div>
+	</div>
+</div>
+</div>
+<script>
+	$('#myModal').show(5000);
+	$('#myModal').modal({show:true});
+</script>

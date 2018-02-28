@@ -1,0 +1,147 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+	
+    
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+   
+
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 80%;
+    }
+	.navbar-default {
+    background-color:#343434;
+    border: transparent;
+    padding:20px 0;
+	}
+	.navbar-default .navbar-toggle {
+    border-color:none;
+    background: #464646;
+	border:0;
+	}
+	.navbar-default .navbar-toggle:hover {
+		background:#000;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+	}
+	
+	homepage-style .unique-apps h2 {
+    font-size: 20px;
+	}
+	.main-history .history-heading {
+    margin: 30px 0;
+    text-align: center;
+	}
+	.homepage-style .unique-apps h2 {
+    font-size: 28px;
+	}
+	.main-history .history-img {
+    text-align: center;
+	}
+	.main-history .history-content .hst-btn{
+	 text-align: center;	
+	}
+	.homepage-style .slider-area {
+    margin-top: 30px;
+	}
+	.start {
+    font-size: 26px;
+    line-height: 26px;
+    padding-top: 10px;
+}
+	
+	
+   
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 65%;
+    }
+	
+	.homepage-style .unique-apps h2 {
+    font-size: 20px;
+	}
+	.portfolio .portfolio-item h4 {
+    font-size: 12px;
+	}
+	
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		background:#af9203;
+		border:0;
+	}
+	.homepage-style .slider-area {
+    margin-top: 30px;
+	}
+	
+	.supports-content .spt-btn{
+		text-align:center;
+	}
+   
+	.start {
+    font-size: 26px;
+    line-height: 26px;
+    padding-top: 10px;
+}
+	.titlebcc{
+		padding-top: 50px !important;
+	}
+}
+
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+    .titlebcc{
+		padding-top: 50px !important;
+	}
+    .start {
+		line-height: 21px;
+	}
+	.homepage-style .unique-apps h2 {
+    font-size: 12px;
+	}
+	.heading .title h4 {
+    font-size: 15px;
+	}
+	.portfolio .portfolio-item h4 {
+    font-size: 10px;
+	}
+	.start {
+    font-size: 26px;
+    line-height: 26px;
+    padding-top: 10px;
+}
+	
+}
+

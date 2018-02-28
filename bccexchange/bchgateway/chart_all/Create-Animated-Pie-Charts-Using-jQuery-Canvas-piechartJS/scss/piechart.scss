@@ -1,0 +1,99 @@
+/* 
+    Created on : 07.04.2017, 08:56:13
+    Author     : Ramon Hirsinger
+*/
+$pchart-color: #464647;
+$pchart-color-hover: #FFFFFF;
+$pchart-border-color: $pchart-color;
+$pchart-button-size: 40px;
+$pchart-border-radius: 5px;
+$pchart-padding: 20px;
+$pchart-margin: 20px;
+$pchart-bar-toggled-color: #CA0097;
+$pchart-bar-toggled-color-inverted: #FFFFFF;
+
+.piechart-container {
+
+    a:visited,
+        a:hover,
+        a:active {
+        outline: none; text-decoration: none;
+    }
+
+    .piechart-catagory-wrapper {
+        & {min-width: 280px;}
+        .piechart-category-title-row {
+            .piechart-category-title-col {
+                .piechart-category-akkordeon-headline {
+                    & {
+                        border: 1px solid $pchart-border-color; 
+                        margin-bottom: $pchart-margin;
+                        transition: all 0.5s ease-in-out;
+                        position: relative;
+                        display:block; 
+                        cursor: pointer; 
+                        color: $pchart-color; 
+                        line-height: $pchart-button-size; 
+                        width: 100%;
+                        padding-left: $pchart-padding + 25px;
+                    }
+                    &::before {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        color: $pchart-color;
+                        font-size: 24px; 
+                        content: '+'; 
+                        height: $pchart-button-size; 
+                        width: $pchart-button-size; 
+                        line-height: $pchart-button-size; 
+                        text-align: center; 
+                        border-radius: $pchart-border-radius;
+                        display: block;
+                    }
+                }
+
+                &:hover {
+                    & {
+                        .piechart-category-akkordeon-headline {
+                            background-color: $pchart-color;
+                        }
+                    }
+
+                    .piechart-category-akkordeon-headline {         
+                        &, &::before{
+                            color: $pchart-color-hover; 
+                            text-decoration: none;
+                        }
+                    }
+                }               
+            }
+
+            &.toggle-open {
+                .piechart-category-title-col {
+                    .piechart-category-akkordeon-headline {
+                        &{background-color: $pchart-bar-toggled-color; border-color: $pchart-bar-toggled-color; color: $pchart-bar-toggled-color-inverted;}
+                        &::before {
+                            content: '-';
+                            color: $pchart-bar-toggled-color-inverted;
+                        }
+                    }
+                }
+            }
+        }
+        .piechart-category-content-row {
+            &{
+                max-height: 0px; overflow: hidden; transition: max-height 0.5s ease-out;
+            }
+            &.toggle-open {
+                max-height: 3000px; transition: max-height 0.5s ease-in;
+            }
+        }
+    }
+}
+
+@media(max-width: 845px) {
+    .piechart-element-wrapper {
+        &{width: 300px !important;}
+    }
+}
