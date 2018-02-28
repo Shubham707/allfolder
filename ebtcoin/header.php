@@ -6,7 +6,8 @@ if(!isset($_SESSION['user_id']))
 {
 	logout();
 }
-$user_session = @$_SESSION['user_session'];?>
+$user_session = @$_SESSION['user_session'];
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,10 +19,12 @@ $user_session = @$_SESSION['user_session'];?>
 	<link href="assets/css/datepicker3.css" rel="stylesheet">
 	<link href="assets/css/styles.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
-	<link rel="icon" href="assets/favicon.png" type="image/png" sizes="32x32">
-	<!--Custom Font-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <link rel="icon" href="assets/EBT_131628969014005597.ico" type="image/x-icon" />
+<link rel="icon" href="assets/EBT_131628969014005597.ico" type="image/png" sizes="32x32">
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
 
+	<!--Custom Font-->
+	
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.min.js"></script>

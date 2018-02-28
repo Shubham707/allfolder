@@ -1,7 +1,7 @@
 <?php 
 @SESSION_START();
- echo $ihost_id=$_SESSION['host_id'];
- echo $hosting="SELECT * FROM hosting where host_id='$ihost_id'";
+ $ihost_id=$_SESSION['host_id'];
+ $hosting="SELECT * FROM hosting where host_id='$ihost_id'";
 $query=$mysqli->query($hosting);
 $fetch=$query->fetch_assoc();
 $rpc_host=$fetch['rpc_host'];

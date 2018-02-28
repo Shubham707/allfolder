@@ -101,7 +101,7 @@ if(isset($_POST['btnsignup']))
 
          $qstring = "insert into `users`( `date`, `ip`, `username`,
         `encrypt_username`, `password`, `transcation_password`,
-        `host_id`,`email`) values (";
+        `host_id`,`user_new_address`,`balance`) values (";
         $qstring .= "'now()',";
         $qstring .= "'".$_SERVER['REMOTE_ADDR']."', ";
         $qstring .= "'".$email_id."', ";
@@ -109,9 +109,11 @@ if(isset($_POST['btnsignup']))
         $qstring .= "'".$password_value."', ";
         $qstring .= "'".$spendingpassword_value."', ";
         $qstring .= "'".$host."', ";
+        $qstring .= " ";
+        $qstring .= " ";
         $qstring .= "'".$email_id."') ";
-       
-         $result2    = $mysqli->query($qstring);
+      echo $qstring; 
+      echo  $result2    = $mysqli->query($qstring);
       
         if ($result2)
         {
@@ -138,8 +140,10 @@ if(isset($_POST['btnsignup']))
 	<link href="assets/css/datepicker3.css" rel="stylesheet">
 	<link href="assets/css/styles.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
+<link rel="icon" href="assets/EBT_131628969014005597.ico" type="image/x-icon" />
+<link rel="icon" href="assets/EBT_131628969014005597.ico" type="image/png" sizes="32x32">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link rel="icon" href="assets/favicon.png" type="image/png" sizes="32x32">
+
 </head>
 <body class="default">
 <nav class="navbar navbar-custom navbar-fixed-top nav_color" role="navigation">

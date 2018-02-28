@@ -1,5 +1,6 @@
 
-<?php @$user_session = @$_SESSION['user_session'];   include_once('hosting.php');?>
+<?php @$user_session = @$_SESSION['user_session'];   
+include_once('hosting.php');?>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
@@ -97,7 +98,7 @@
 
       <div class="w3-center"><br>
         <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
- Recieve
+ Receive
       </div>
  
       <form  role="frm" class="w3-container" action="#" method="post" >

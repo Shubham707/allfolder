@@ -56,6 +56,7 @@ if(isset($_POST['btnforget']))
 	<link href="assets/css/datepicker3.css" rel="stylesheet">
 	<link href="assets/css/styles.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
+<link rel="icon" href="assets/EBT_131628969014005597.ico" type="image/x-icon" />
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.min.js"></script>

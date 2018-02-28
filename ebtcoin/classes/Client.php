@@ -11,36 +11,36 @@ class Client {
 
 	function getBalance($user_session)
 	{
-		return $this->jsonrpc->getbalance("zelles(" . $user_session . ")", 6);
+		return $this->jsonrpc->getbalance("zelles(". $user_session .")", 6);
 		//return 21;
 	}
 
        function getAddress($user_session)
         {
-                return $this->jsonrpc->getaccountaddress("zelles(" . $user_session . ")");
+                return $this->jsonrpc->getaccountaddress("zelles(". $user_session .")");
 	}
 
 	function getAddressList($user_session)
 	{
-		return $this->jsonrpc->getaddressesbyaccount("zelles(" . $user_session . ")");
+		return $this->jsonrpc->getaddressesbyaccount( "zelles(". $user_session .")");
 		//return array("1test", "1test");
 	}
 
 	function getTransactionList($user_session)
 	{
-		return $this->jsonrpc->listtransactions("zelles(" . $user_session . ")", 200);
+		return $this->jsonrpc->listtransactions( "zelles(". $user_session .")", 200);
 	}
 
 	function getNewAddress($user_session)
 	{
 	//	echo "indise add";
-		return $this->jsonrpc->getnewaddress("zelles(" . $user_session . ")");
+		return $this->jsonrpc->getnewaddress( "zelles(". $user_session .")");
 		//return "1test";
 	}
 
 	function withdraw($user_session, $address, $amount, $comment)
 	{
-		return $this->jsonrpc->sendfrom("zelles(" . $user_session . ")", $address, (float)$amount, 6, $comment);
+		return $this->jsonrpc->sendfrom("zelles(". $user_session .")" , $address, (float)$amount, 6, $comment);
 		//return "ok wow";
 	}
 	function payment($address, $amount,$comment)

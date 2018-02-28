@@ -22,7 +22,7 @@ if($dbserverflag == 1)
 	$db_host = "localhost";
 	$db_user = "root";
 	$db_pass = "password";
-	$db_name = "newwallet";
+	$db_name = "wallet";
 	define("_LIVE_",true); // for testing in local system no coin function will call
 
 }
@@ -31,7 +31,7 @@ else
 	$db_host = "localhost";
 	$db_user = "root";
 	$db_pass = "password";
-	$db_name = "newwallet";
+	$db_name = "wallet";
 	//$db_name = "test_db";
 	define("_LIVE_",true); // for testing in local system no coin function will call
 }

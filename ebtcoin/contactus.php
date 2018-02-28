@@ -3,6 +3,7 @@
 $contact="active";
 ?>
 <?php include 'sidebar.php'; ?>
+
 	<div class="row">
 		
 			<div class="col-md-10 col-md-offset-1">
@@ -39,7 +40,7 @@ $contact="active";
 									</div>
 								   <div class="col-md-6">
 										<div class="form-group">
-											<input class="form-control" placeholder="PHONE NO" name="phone" type="text" required>
+											<input class="form-control" placeholder="PHONE NO" name="phone" type="number"  minlength="10" maxlength="10" required> 
 										</div>
 									</div>
 								</div>
@@ -54,7 +55,7 @@ $contact="active";
 						
 					</div>
 							
-							<input type="submit" class="btn btn-primary" name="submit" value="SEND">
+							<input onclick = "return Validate()" type="submit" class="btn btn-primary" name="submit" value="SEND">
 						</fieldset>
 					</form>
 					</div>
@@ -64,4 +65,18 @@ $contact="active";
 			
     </div>
 
+
 <?php include 'footer.php'; ?>
+  
+<script>  $('input[name="txtChar"]').keyup(function(e)                                
+{  if (/\D/g.test(this.value))  {    
+// Filter non-digits from input value.   
+ this.value = this.value.replace(/\D/g, '');  
+}
+});
+ $('input[name="phone"]').keyup(function(e)                                
+{  if (/\D/g.test(this.value))  {    
+// Filter non-digits from input value.   
+ this.value = this.value.replace(/\D/g, '');  
+}
+});

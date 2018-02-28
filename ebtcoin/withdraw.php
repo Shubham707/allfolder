@@ -1,6 +1,7 @@
 <?php include 'header.php'; 
   include_once('hosting.php');
 $user_session = $_SESSION['user_session'];
+$id = $_SESSION['host_id'];
 $errorsend = array();
 $transactionList = array();
 
@@ -11,6 +12,16 @@ $trans_desc ="";
 $spendingpassword = "";
 $user_current_balance2 = 0;
 $client = "";
+
+$sql1="select * from hosting WHERE host_id='$host_id'";
+$query=$mysqli->query($sql1);
+$data=$mysqli->fetch_assoc();
+
+$rpc_host=$data['rpc_host'];
+$rpc_port=$data['rpc_port'];
+$rpc_user=$data['rpc_user'];
+$rpc_pass=$data['rpc_pass'];
+
 if(_LIVE_)
 {
     $client = new Client($rpc_host, $rpc_port, $rpc_user, $rpc_pass);
@@ -117,7 +128,7 @@ if(isset($_POST['btncontact']))
 										</div> -->
                                         <small class="center">Here you can send your EBT coins to admin </small>
 										<div class="form-group">
-			<input class="form-control" id="txtChar" placeholder="EBT AMOuNT" name="ebtamount" type="text" required>
+			<input class="form-control" id="txtChar" placeholder="EBT AMOUNT" name="ebtamount" type="number" required>
 										</div>
 										<input type="submit" class="btn btn-primary" name="btncontact" value=" SEND"> 
 										<!-- <a href="change_address.php?nad=1" class="btn btn-primary" name="button"> UPDATE</a> -->
